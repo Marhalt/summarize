@@ -32,8 +32,8 @@ python summarize.py my_story.txt \
   --base-url http://127.0.0.1:11434/v1 \
   --model mistral:7b
 
---
-Options
+
+## Options
 
 -s LEVEL → Summary detail level (1–5, default: 5 = full detail).
 
@@ -45,8 +45,8 @@ Options
 
 --model → Model name (e.g. local-model, mistral:7b). Works well with Qwen3 Next 20b. Avoid thinking models if possible. 
 
---
- Output
+
+## Output
 
 For an input file my_story.txt, the script creates:
 
